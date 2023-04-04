@@ -1,0 +1,74 @@
+﻿<Window x:Class="CookeBookClient.Update_Recipe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CookeBookClient"
+        mc:Ignorable="d"
+            Title="Update Recipe" Height="700" Width="600" Background="#FF586D4F" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel Margin="20,20,20,20" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Vertical" Width="560" >
+                <Label Content="UPDATE RECIPE:" Foreground="#FFF3EDED" FontWeight="Bold" FontSize="20" Cursor="None" HorizontalAlignment="Center" ></Label>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="RECIPE ID" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtRecipeId" Text="Recipe Id" Width="150" IsEnabled="False"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="RECIPE NAME:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtRecipeName" Text="Recipe Name" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="CUISINE:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtCuisine" Text="Cuisine" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="DESCRIPTION:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtDescription" Text="Description" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="INSTRUCTION:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtInstruction" Text="Instruction" Width="300" MaxLength="500" Height="75"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="TIME TO PREPARE:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtPrepTime" Text="PrepTime" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="RATING:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtRating" Text="Rating" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="VIDEO URL:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtPrepVideoUrl" Text="PrepVideoUrl" Width="150"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Width="300" />
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="COMPLEXITY:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtComplexity" Text="Complexity" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300" >
+                    <Label Content="NUMBER OF INGRIDIENTS:" Width="150" Foreground="#FFF9F7F7" FontWeight="Bold"/>
+                    <TextBox x:Name="txtNumberOfIngredients" Text="NumberOfIngredients" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="300">
+                    <Label Content="LIST OF INGRIDIENTS     " Foreground="#FFF9F7F7" FontWeight="Bold"></Label>
+                    <Label Content="MEASUREMENTS" Foreground="#FFF9F7F7" FontWeight="Bold"></Label>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="200">
+                <StackPanel Orientation="Vertical"  x:Name="ingredientList" Height="200" Width="150" />
+                <StackPanel Orientation="Vertical"  x:Name="measurements" Height="200" Width="150" />
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="200" Height="37" >
+                    <Button x:Name="btnBack" Content="GO BACK" Background="#FF1E1F1E" Foreground="#FFF5F0F0" FontWeight="Bold" Width="100" Click="btnBack_Click" />
+                    <Button x:Name="btnUpdateRecipe" Content="UPDATE" Background="#FF1A399C" Foreground="#FFF5F0F0" FontWeight="Bold" Width="100" Click="btnUpdateRecipe_Click"  />
+                </StackPanel>
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

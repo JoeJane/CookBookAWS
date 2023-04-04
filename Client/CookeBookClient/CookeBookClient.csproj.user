@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Add_Ingredient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Add_Recipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="List_Ingredient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="List_Recipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Selected_Ingredient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Selected_Recipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateMeasurement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update_Ingredient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update_Recipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Add_Ingredient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Add_Recipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="List_Ingredient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="List_Recipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Selected_Ingredient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Selected_Recipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateMeasurement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update_Ingredient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update_Recipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

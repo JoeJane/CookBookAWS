@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CookeBookClient_wnodpng0_wpftmp
+build_property.ProjectDir = C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\Group13_(Maiara31145511_Aarthy301160296)_COMP308\CookeBookClient\

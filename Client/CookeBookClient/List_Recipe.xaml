@@ -1,0 +1,33 @@
+﻿<Window x:Class="CookeBookClient.List_Recipe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CookeBookClient"
+        mc:Ignorable="d"
+        Title="Recipes" Height="500" Width="600" Background="#FF586D4F" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel Margin="20,20,20,0" Height="399" VerticalAlignment="Top">
+            <Label Content="FIND YOUR IDEAL MEAL" Foreground="#FFF3EDED" FontWeight="Bold" FontSize="32" Cursor="None" HorizontalAlignment="Center" ></Label>
+            <Label Content="List of Recipes" Foreground="#FFF3EDED" FontWeight="Bold" FontSize="19" Cursor="None" HorizontalAlignment="Center" ></Label>
+            <StackPanel Orientation="Vertical" Margin="5px" Width="400" >
+                <StackPanel Orientation="Horizontal" Margin="5" Width="400">
+                <Button x:Name="btnAddRecipe" Content="ADD RECIPE" Background="#FF177023" Foreground="#FFF9F4F4" FontWeight="Bold" Width="200" Click="btnAddRecipe_Click" ></Button>
+                <Button x:Name="btnDeleteRecipe" Content="DELETE RECIPE" Background="#FFC8352F" Foreground="#FFF9F4F4" FontWeight="Bold" Width="200" Click="btnDeleteRecipe_Click" ></Button>
+                </StackPanel>
+            </StackPanel>
+            <ListView x:Name="listViewRecipes" Height="275" d:ItemsSource="{d:SampleData ItemCount=5}" MouseDoubleClick="listViewRecipes_MouseDoubleClick_1" SelectionChanged="listViewRecipes_SelectionChanged"   >
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListBoxItem}">
+                        <Setter Property="BorderThickness" Value="4"/>
+                        <Setter Property="BorderBrush" Value="#FF586D4F"/>
+                        <Setter Property="Padding" Value="5px"/>
+                        <Setter Property="Margin" Value="10px"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+            </ListView>
+        </StackPanel>
+        <Button x:Name="btnBack" Content="GO BACK" Background="#FF1E1F1E" Foreground="#FFF5F0F0" FontWeight="Bold" Width="124" Height="28" Click="btnBack_Click" RenderTransformOrigin="0.485,2.296" HorizontalAlignment="Left" Margin="231,435,0,0" VerticalAlignment="Top"  />
+
+    </Grid>
+</Window>

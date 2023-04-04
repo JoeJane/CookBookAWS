@@ -1,0 +1,14 @@
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\bin\Debug\net6.0\CookBookLibrary.deps.json
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\bin\Debug\net6.0\CookBookLibrary.runtimeconfig.json
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\bin\Debug\net6.0\CookBookLibrary.dll
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\bin\Debug\net6.0\CookBookLibrary.pdb
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\CookBookLibrary.csproj.AssemblyReference.cache
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\CookBookLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\CookBookLibrary.AssemblyInfoInputs.cache
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\CookBookLibrary.AssemblyInfo.cs
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\CookBookLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\CookBookLibrary.dll
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\refint\CookBookLibrary.dll
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\CookBookLibrary.pdb
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\CookBookLibrary.genruntimeconfig.cache
+C:\Users\Aarthy\Documents\Semester3\Cloud\WebAPI\21112022_1057am\CookBook\CookBookLibrary\obj\Debug\net6.0\ref\CookBookLibrary.dll
